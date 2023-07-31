@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: bgd
+    team: mlp
   name: bgd
   namespace: test
 spec:
